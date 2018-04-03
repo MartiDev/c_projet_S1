@@ -1,0 +1,24 @@
+Fonctionnalitées ajoutées:
+Etant donné que nous ne sommes pas parti du projet corrigé, voici une liste non éxhaustive :
+1/Mode de jeu campagne
+2/mode de jeu survivor (temps)
+3/ les autres modes de jeux
+3/BombeUlam
+4/Petites Bombes
+5/ Enregistrement du score, utilisation de flux entrée/sortie sur fichier
+6/ deux choix de jeu (contenu de grille) possible (trou ou plein)
+7/ sécurisation des saisies
+8/Supression des colones / lignes vides
+9/Détections des colones vide pour le mode de jeu à Trou
+10/Suppression de plus de 3 triplets
+
+
+Les méthodes pour tester:
+1/tester les érreures de segmentation en jouant sur les bords
+2/tester les controles booléens cinFail de la meme façon
+3/Pour les enregistrement, regarder ce qui était écris dans le fichier destination voir si cela correspond bien à la valeur dans le terminal et que le bon fichier s'est crée
+4/ Pour le calcule du score des bombes, calculer avec une calculette le score avant de faire éclater la bombe et comparer les résultats
+5/pour les gros changements, copie collage du projet dans un autre fichier test afin d'effectuer les changements necessaires en ayant un back up
+6/ compiler souvent et ne pas écrire beaucoup de lignes sans compiler
+7/jouer, jouer et jouer au jeu afin de tomber sur des érreures possibles.
+
